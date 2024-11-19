@@ -19,7 +19,7 @@ import QtQuick 2.13
 import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.0
 import QtQuick.Window 2.13
-import QtGraphicalEffects 1.0
+import Qt5Compat.GraphicalEffects
 import AppModel 1.0
 
 ApplicationWindow {
@@ -38,7 +38,7 @@ ApplicationWindow {
 
         Image {
             anchors.centerIn: parent
-            source: './images/AGL_HMI_Blue_Background_Car-01.png'
+            source: 'qrc:/images/AGL_HMI_Blue_Background_Car-01.png'
         }
 
         GridView {
